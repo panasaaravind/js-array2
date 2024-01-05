@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>js array day2</title>
+
+        <script src="./js/script.js"></script>
+
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <em class="myem"></em>
+        
+        <script>
+            const cars = ["audi","thar","swift"];
+            //1st way to write array code
+            console.log(cars[0]);
+
+
+            //second way to write array code
+            let students = new Array ("aravind","bhanu","chintu");
+            alert(students[1]);
+            let x=document.querySelector(".myem");
+            x.innerHTML=students[0];
+            x.style.color="red";
+
+            let friends = [];  //declaration of empty array
+            friends[0] = "rahul";//initilation
+            friends[1] = "rakesh";//initilation
+            friends[2] = "ram";  //initialization
+
+            console.log(friends[0]);
+            document.write('<h1>'+friends[2]+'</h1>');
+
+
+
+        </script>
+    </body>
+</html>
